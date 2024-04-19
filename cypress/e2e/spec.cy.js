@@ -18,7 +18,7 @@ describe('Validate login functionality', () => {
     
          cy.visit('https://www.techlistic.com/p/selenium-practice-form.html');
          cy.get('[trbidi="on"] > :nth-child(2) > input').type('Ayush');
-         cy.get(':nth-child(5) > inpu').type('Preenza');
+         cy.get(':nth-child(5) > input').type('Preenza');
          cy.get('#sex-0').click();
      
  
