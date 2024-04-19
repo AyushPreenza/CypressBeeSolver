@@ -26,3 +26,12 @@ describe('Form submission', () => {
 
     })
    })
+
+   describe('Website Navigation and Text Verification', () => {
+    it('Visits the website and verifies text', () => {
+      // Visit the website
+      cy.visit('https://google.com');
+
+      cy.get('.FPdoLc > center > .gNO89b').should('be.visible');
+    });
+  });
