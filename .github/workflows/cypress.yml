@@ -1,7 +1,7 @@
 name: End-to-end tests
 on: push
 jobs:
-  npx cypress run --reporter mocha-junit-reporter:
+  cypress-run:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
@@ -10,19 +10,7 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v6
-        # after the test run completes store videos and any screenshots
-      - uses: actions/upload-artifact@v4
-        # add the line below to store screenshots only on failures
-        # if: failure()
-        with:
-          name: cypress-screenshots
-          path: cypress/screenshots
-          if-no-files-found: ignore # 'warn' or 'error' are also available, defaults to `warn`
-      - uses: actions/upload-artifact@v4
-        with:
-          name: cypress-videos
-          path: cypress/videos
-          if-no-files-found: ignore # 'warn' or 'error' are also available, defaults to `warn`
+      #On Sucess
       - name: Notify on Success
         if: success()
         run: echo "All tests passed successfully!"
