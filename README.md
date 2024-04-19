@@ -3,6 +3,10 @@ TO RUN THIS PROJECT LOCALLY
 1 . Download and Install NodeJS 
 2 . Download and install Visual Studio Code(Visual Studio Code is the most used IDE. However, testers can use any IDE.)
 3 . Git clone the repository in your local machine
+    -create one folder where you want to keep project
+    -run following commands
+     1.git init
+     2.git clone https://github.com/AyushPreenza/CypressBeeSolver.git
 4.  Open the project in your IDE
 5.  Run the following command
      npx cypress run (It will run all the test present in spec.cy.js file)
