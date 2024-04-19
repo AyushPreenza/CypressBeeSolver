@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="28.318" tests="3" failures="0">
-  <testsuite name="Root Suite" timestamp="2024-04-19T12:24:55" tests="0" file="cypress\e2e\spec.cy.js" time="0.000" failures="0">
+<testsuites name="Mocha Tests" time="30.965" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-04-19T12:55:41" tests="0" file="cypress\e2e\spec.cy.js" time="0.000" failures="0">
   </testsuite>
-  <testsuite name="Validate login functionality" timestamp="2024-04-19T12:24:55" tests="1" time="14.433" failures="0">
-    <testcase name="Validate login with valid credentials" time="11.083" classname="Validate login functionality Validate login with valid credentials">
+  <testsuite name="Validate login functionality" timestamp="2024-04-19T12:55:41" tests="1" time="10.633" failures="0">
+    <testcase name="Validate login with valid credentials" time="7.728" classname="Validate login functionality Validate login with valid credentials">
     </testcase>
   </testsuite>
-  <testsuite name="Form submission" timestamp="2024-04-19T12:25:09" tests="1" time="8.382" failures="0">
-    <testcase name="validate form submission" time="5.170" classname="Form submission validate form submission">
+  <testsuite name="Form submission" timestamp="2024-04-19T12:55:52" tests="1" time="9.323" failures="0">
+    <testcase name="validate form submission" time="5.429" classname="Form submission validate form submission">
     </testcase>
   </testsuite>
-  <testsuite name="Website Navigation and Text Verification" timestamp="2024-04-19T12:25:18" tests="1" time="5.485" failures="0">
-    <testcase name="Visits the website and verifies text" time="2.526" classname="Website Navigation and Text Verification Visits the website and verifies text">
+  <testsuite name="Website Navigation and Text Verification" timestamp="2024-04-19T12:56:01" tests="1" time="5.222" failures="0">
+    <testcase name="Visits the website and verifies text" time="2.305" classname="Website Navigation and Text Verification Visits the website and verifies text">
+    </testcase>
+  </testsuite>
+  <testsuite name="Select dropdown" timestamp="2024-04-19T12:56:07" tests="1" time="5.782" failures="0">
+    <testcase name="Scenario 1" time="3.169" classname="Select dropdown Scenario 1">
     </testcase>
   </testsuite>
 </testsuites>
